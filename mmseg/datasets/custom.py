@@ -1955,7 +1955,7 @@ class CustomDataset_video2(Dataset):
         self.ann_dir = ''
         self.seg_map_suffix = seg_map_suffix
         self.split = split
-        self.data_root = data_root
+        self.data_root = '/gpfs1/home/2018015/vprade01/repos/cffm/'+data_root
         self.test_mode = test_mode
         self.ignore_index = ignore_index
         self.reduce_zero_label = reduce_zero_label
